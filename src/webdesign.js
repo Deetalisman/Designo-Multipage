@@ -22,9 +22,69 @@ function Webdesign() {
 
 function Webdesign1() {
   return (
-    <div className="">
-      <div>
-        <img src={web1} />
+    <div className=" mt-16 w-4/5 mx-auto">
+      <div className="mb-8">
+        <img src={web1} className="rounded-t-xl" />
+        <div className="text-center px-8 py-8 rounded-b-lg bg-red-100">
+          <h1 className="arrow font-semibold tracking-widest text-xl">
+            Express
+          </h1>
+          <p className="leading-6 mt-3 text-sm">
+            A multi-carrier shipping website for ecommerce businesses
+          </p>
+        </div>
+      </div>
+      <div className="mb-8">
+        <img src={web2} className="rounded-t-xl" />
+        <div className="text-center px-8 py-8 rounded-b-lg bg-red-100">
+          <h1 className="arrow font-semibold tracking-widest text-xl">
+            Transfer
+          </h1>
+          <p className="leading-6 mt-3 text-sm">
+            Site for low-cost money transfers and sending money within seconds
+          </p>
+        </div>
+      </div>
+      <div className="mb-8">
+        <img src={web3} className="rounded-t-xl" />
+        <div className="text-center px-8 py-8 rounded-b-lg bg-red-100">
+          <h1 className="arrow font-semibold tracking-widest text-xl">
+            Photon
+          </h1>
+          <p className="leading-6 mt-3 text-sm">
+            A state-of-the-art music player with high-resolution audio and DSP
+            effects.
+          </p>
+        </div>
+      </div>
+      <div className="mb-8">
+        <img src={web4} className="rounded-t-xl" />
+        <div className="text-center px-8 py-8 rounded-b-lg bg-red-100">
+          <h1 className="arrow font-semibold tracking-widest text-xl">
+            Builder
+          </h1>
+          <p className="leading-6 mt-3 text-sm">
+            Connects users with local contractors based on their location
+          </p>
+        </div>
+      </div>
+      <div className="mb-8">
+        <img src={web5} className="rounded-t-xl" />
+        <div className="text-center px-8 py-8 rounded-b-lg bg-red-100">
+          <h1 className="arrow font-semibold tracking-widest text-xl">Blogr</h1>
+          <p className="leading-6 mt-3 text-sm">
+            Blogr is a platfrom for creating an online blog or platform
+          </p>
+        </div>
+      </div>
+      <div className="mb-8">
+        <img src={web6} className="rounded-t-xl" />
+        <div className="text-center px-8 py-8 rounded-b-lg bg-red-100">
+          <h1 className="arrow font-semibold tracking-widest text-xl">Camp</h1>
+          <p className="leading-6 mt-3 text-sm">
+            Get expert training in coding,data,design and digital marketing
+          </p>
+        </div>
       </div>
     </div>
   );

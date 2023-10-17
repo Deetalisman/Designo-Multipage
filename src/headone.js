@@ -10,7 +10,7 @@ function Headone() {
     setHam((ham) => !ham);
   }
   return (
-    <div className="flex justify-between py-8 px-3 relative">
+    <div className="flex justify-between py-5 px-3 relative">
       <a href="/" className="flex">
         <img src={img2} width="180px" />
       </a>

@@ -15,7 +15,7 @@ function Home() {
 
 function Headtwo() {
   return (
-    <div className="text-center px-8 pt-32 head2 text-white">
+    <div className="text-center px-8 pt-24 head2 text-white">
       <h1 className="font-medium text-3xl">
         Award-winning custom designs and digital branding solutions
       </h1>
