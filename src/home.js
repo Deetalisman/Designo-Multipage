@@ -15,16 +15,16 @@ function Home() {
 
 function Headtwo() {
   return (
-    <div className="text-center px-8 pt-8 head2 text-white">
-      <h1 className="font-medium text-xl">
+    <div className="text-center px-8 pt-32 head2 text-white">
+      <h1 className="font-medium text-3xl">
         Award-winning custom designs and digital branding solutions
       </h1>
-      <p className="mt-4 text-sm">
+      <p className="mt-4 text-lg">
         With over 10 years in the industry, we are experienced in creating fully
         responsive websites, app design, and engaging brand experiences. Find
         out more about our services.
       </p>
-      <button className="mt-5 bg-white text-black p-4 rounded">
+      <button className="mt-5 bg-white text-black p-3 px-5 rounded">
         LEARN MORE
       </button>
       <img src={img3} />
@@ -35,29 +35,29 @@ function Headtwo() {
 function Headthree() {
   return (
     <div className="text-white mt-10 px-5">
-      <div className="web flex justify-center mb-3 items-center text-center rounded-lg">
-        <div>
+      <div className="web flex pl-12 mb-5 items-center text-left rounded-lg hover:bg-gradient-to-r hover:text-black from-orange-200">
+        <a href="/webdesign" className="cursor-pointer">
           <h1 className="font-medium text-xl">WEB DESIGN</h1>
           <p className="tracking-widest">
             VIEW PROJECT <span className="arrow">></span>
           </p>
-        </div>
+        </a>
       </div>
-      <div className="app flex justify-center  mb-3  items-center text-center rounded-lg">
-        <div>
+      <div className="app flex pl-12 mb-5  items-center rounded-lg hover:bg-gradient-to-r hover:text-black from-orange-200">
+        <a href="/appdesign" className="cursor-pointer">
           <h1 className="font-medium text-xl">APP DESIGN</h1>
           <p className="tracking-widest">
             VIEW PROJECT <span className="arrow">></span>
           </p>
-        </div>
+        </a>
       </div>
-      <div className="design flex justify-center  mb-3  items-center text-center rounded-lg">
-        <div>
+      <div className="design flex pl-12 mb-3  items-center rounded-lg hover:bg-gradient-to-r hover:text-black from-orange-200">
+        <a href="/graphic" className="cursor-pointer">
           <h1 className="font-medium text-xl">GRAPHIC DESIGN</h1>
           <p className="tracking-widest">
             VIEW PROJECT <span className="arrow">></span>
           </p>
-        </div>
+        </a>
       </div>
     </div>
   );

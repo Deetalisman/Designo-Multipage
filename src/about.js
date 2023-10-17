@@ -18,8 +18,8 @@ function About() {
 function Aboutone() {
   return (
     <div className="text-white bg">
-      <img src={imgabout} />
-      <div className="head2 py-14 px-5 text-center">
+      <img src={imgabout} width="100%" />
+      <div className="head2 py-14 px-10 text-center">
         <h1 className="text-xl font-bold">About us</h1>
         <p className="text-sm mt-3">
           Founded in 2010, we are a creative agency that produces lasting
@@ -36,7 +36,7 @@ function Aboutone() {
 function Abouttwo() {
   return (
     <div>
-      <img src={imgabout0} />
+      <img src={imgabout0} width="100%" />
       <div className="about py-10 px-5 text-center">
         <h1 className="text-xl font-bold col">World-class talent</h1>
         <p className="text-sm mt-3">
@@ -62,7 +62,7 @@ function Sublocation() {
         </div>
         <h1 className="col font-bold space text-center mt-5">CANADA</h1>
         <button className="text-white back p-3 px-5 rounded-md font-semibold mt-3">
-          SEE LOCATION
+          <a href="/location">SEE LOCATION</a>
         </button>
       </div>
       <div className="text-center mt-10">
@@ -71,7 +71,7 @@ function Sublocation() {
         </div>
         <h1 className="col font-bold space text-center mt-5">AUSTRALIA</h1>
         <button className="text-white back p-3 px-5 rounded-md font-semibold mt-3">
-          SEE LOCATION
+          <a href="/location">SEE LOCATION</a>
         </button>
       </div>
       <div className="text-center mt-10">
@@ -80,7 +80,7 @@ function Sublocation() {
         </div>
         <h1 className="col font-bold space text-center mt-5">UNITED KINGDOM</h1>
         <button className="text-white back p-3 px-5 rounded-md font-semibold mt-3">
-          SEE LOCATION
+          <a href="/location">SEE LOCATION</a>
         </button>
       </div>
     </div>
@@ -90,7 +90,7 @@ function Sublocation() {
 function Aboutthree() {
   return (
     <div className="mt-10">
-      <img src={imgabout1} />
+      <img src={imgabout1} width="100%" />
       <div className="about py-10 px-5 text-center">
         <h1 className="text-xl font-bold col">The real deal</h1>
         <p className="text-sm mt-3">

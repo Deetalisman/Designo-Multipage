@@ -21,6 +21,13 @@ code {
   background-size: cover;
   background-position: right;
 }
+.head3 {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./assets/home/desktop/bg-pattern-hero-home.svg);
+  background-color: rgb(255, 120, 97);
+}
 .web {
   background-image: url(./assets/home/mobile/image-web-design.jpg);
   background-position: center;

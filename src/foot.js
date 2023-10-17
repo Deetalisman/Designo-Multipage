@@ -10,7 +10,7 @@ function Foot() {
   return (
     <div className="bg-slate-700 relative p-5 text-center pb-8 mt-60 ">
       <Subhead />
-      <div className="flex justify-center items-center py-5 mt-40">
+      <div className="flex justify-center items-center py-5 mt-36">
         <img src={img22} width="200px" />
       </div>
       <hr></hr>
@@ -30,18 +30,18 @@ function Foot() {
         <p>M : ishmaeldotun@gmail.com</p>
       </div>
       <div className="flex justify-center items-center mt-7">
-        <img src={img7} className="mr-3 cursor-pointer" />
-        <img src={img8} className="mr-3 cursor-pointer" />
-        <img src={img9} className="mr-3 cursor-pointer" />
-        <img src={img10} className="mr-3 cursor-pointer" />
-        <img src={img11} className="mr-3 cursor-pointer" />
+        <img src={img7} className="mr-5 cursor-pointer" />
+        <img src={img8} className="mr-5 cursor-pointer" />
+        <img src={img9} className="mr-5 cursor-pointer" />
+        <img src={img10} className="mr-5 cursor-pointer" />
+        <img src={img11} className="mr-5 cursor-pointer" />
       </div>
     </div>
   );
 }
 function Subhead() {
   return (
-    <div className="head2 absolute mb-5 -top-44 left-7 h-auto w-5/6 mx-auto rounded-lg text-white py-10 px-4">
+    <div className="head2 absolute mb-5 -top-44 left-7 h-auto w-5/6 mx-auto rounded-lg text-white py-14 px-6">
       <h1 className="text-2xl font-medium">Let's talk about your project</h1>
       <p className="mt-4 text-sm leading-6">
         Ready to take it to the next level? Contact us today and find out how
