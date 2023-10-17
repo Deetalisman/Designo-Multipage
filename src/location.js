@@ -6,8 +6,8 @@ function Location() {
     <div>
       <div>
         <img src={canmap} width="100%" height="20vh" />
-        <div className="text-center loc py-5">
-          <h1 className="col font-bold tracking-wide text-center text-2xl mt-5">
+        <div className="text-center loc py-10">
+          <h1 className="col font-bold tracking-wide text-center text-2xl ">
             Canada
           </h1>
           <div className="text-black mt-3 leading-7">
@@ -24,8 +24,8 @@ function Location() {
       </div>
       <div className="mt-5">
         <img src={ausmap} width="100%" height="20vh" />
-        <div className="text-center loc py-5">
-          <h1 className="col font-bold tracking-wide text-center text-2xl mt-5">
+        <div className="text-center loc py-10">
+          <h1 className="col font-bold tracking-wide text-center text-2xl">
             Australia
           </h1>
           <div className="text-black mt-3 leading-7">
@@ -42,8 +42,8 @@ function Location() {
       </div>
       <div className="mt-5">
         <img src={ukmap} width="100%" height="20vh" />
-        <div className="text-center loc py-5">
-          <h1 className="col font-bold tracking-wide text-center text-2xl mt-5">
+        <div className="text-center loc py-10">
+          <h1 className="col font-bold tracking-wide text-center text-2xl">
             United Kingdom
           </h1>
           <div className="text-black mt-3 leading-7">

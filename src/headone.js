@@ -15,7 +15,7 @@ function Headone() {
         <img src={img2} width="180px" />
       </a>
       {ham && (
-        <div className="bg-slate-700 text-xl text-white absolute left-0 w-full p-10 top-16 py-10 leading-8">
+        <div className="bg-slate-700 text-2xl text-white absolute left-0 w-full p-10 top-16 py-10 leading-8">
           <p className="mb-5">
             <a href="/about">OUR COMPANY</a>
           </p>{" "}

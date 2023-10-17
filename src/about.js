@@ -20,7 +20,7 @@ function Aboutone() {
     <div className="text-white bg">
       <img src={imgabout} width="100%" />
       <div className="head2 py-14 px-10 text-center">
-        <h1 className="text-xl font-bold">About us</h1>
+        <h1 className="text-2xl font-bold">About us</h1>
         <p className="text-sm mt-3">
           Founded in 2010, we are a creative agency that produces lasting
           results for our clients.We've partnered with many
@@ -38,7 +38,7 @@ function Abouttwo() {
     <div>
       <img src={imgabout0} width="100%" />
       <div className="about py-10 px-5 text-center">
-        <h1 className="text-xl font-bold col">World-class talent</h1>
+        <h1 className="text-2xl font-bold col">World-class talent</h1>
         <p className="text-sm mt-3">
           We are a crew of strategists,problem-solvers and technologies. Every
           design is thoughtfully crafted from concept to launch, ensuring
@@ -92,7 +92,7 @@ function Aboutthree() {
     <div className="mt-10">
       <img src={imgabout1} width="100%" />
       <div className="about py-10 px-5 text-center">
-        <h1 className="text-xl font-bold col">The real deal</h1>
+        <h1 className="text-2xl font-bold col">The real deal</h1>
         <p className="text-sm mt-3">
           As strategic partners in our clients' businesses, we are ready to take
           on any challenge as our own.Solving real problems require empathy and
