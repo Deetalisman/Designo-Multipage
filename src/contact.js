@@ -26,10 +26,10 @@ function Contact() {
     onSubmit,
   });
   return (
-    <div>
-      <div className="text-center px-5 con py-10 text-white">
+    <div className="sm:mx-16 sm:mt-6 ">
+      <div className="text-center px-5 sm:px-10 con py-10 text-white sm:rounded-lg">
         <h1 className="font-bold text-2xl">Contact Us</h1>
-        <p className="text-sm mt-3 leading-6">
+        <p className="text-sm mt-3 leading-6 sm:text-base">
           Ready to take it to the next level?Let's talk about your project or
           idea and find out how we can help your business grow.If you are
           looking for unique digital experience that's relatable to your users,

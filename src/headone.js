@@ -10,10 +10,19 @@ function Headone() {
     setHam((ham) => !ham);
   }
   return (
-    <div className="flex justify-between py-5 px-3 relative">
+    <div className="flex justify-between py-5 px-3 relative lg:px-32 lg:mt-5">
       <a href="/" className="flex">
-        <img src={img2} width="180px" />
+        <img src={img2} width="180px" className="md:w-64" />
       </a>
+      <div className="flex text-lg font-medium tracking-widest hidden sm:flex mt-0">
+        <p className="mb-5 sm:mr-4">
+          <a href="/about">OUR COMPANY</a>
+        </p>{" "}
+        <p className="mb-5 sm:mr-4">
+          <a href="/location">LOCATIONS</a>
+        </p>{" "}
+        <a href="/contact">CONTACT</a>
+      </div>
       {ham && (
         <div className="bg-slate-700 text-2xl text-white absolute left-0 w-full p-10 top-16 py-10 leading-8">
           <p className="mb-5">
@@ -27,7 +36,7 @@ function Headone() {
       )}
       <img
         src={ham ? img01 : img1}
-        className="cursor-pointer"
+        className="cursor-pointer sm:hidden"
         onClick={handleHam}
         alt="mee"
         width="35px"

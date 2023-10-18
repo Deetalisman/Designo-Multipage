@@ -10,7 +10,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.none {
+  display: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -29,25 +31,23 @@ code {
   background-color: rgb(255, 120, 97);
 }
 .web {
-  background-image: url(./assets/home/mobile/image-web-design.jpg);
+  background-image: url(./assets/home/desktop/image-web-design-small.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 10rem;
 }
+
 .app {
-  background-image: url(./assets/home/mobile/image-app-design.jpg);
+  background-image: url(./assets/home/desktop/image-app-design.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 10rem;
 }
 .design {
-  background-image: url(./assets/home/mobile/image-graphic-design.jpg);
+  background-image: url(./assets/home/desktop/image-graphic-design.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 10rem;
 }
 .arrow {
   color: tomato;
@@ -88,4 +88,28 @@ input {
   background-repeat: no-repeat;
   background-color: rgb(255, 120, 97);
   background-size: cover;
+}
+@media screen and (max-width: 640px) {
+  .web {
+    background-image: url(./assets/home/tablet/image-web-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10rem;
+  }
+
+  .app {
+    background-image: url(./assets/home/tablet/image-app-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10rem;
+  }
+  .design {
+    background-image: url(./assets/home/tablet/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10rem;
+  }
 }
