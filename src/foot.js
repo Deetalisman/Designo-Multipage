@@ -11,7 +11,7 @@ function Foot() {
     <div className="bg-slate-700  relative p-5 text-center pb-8 mt-60 md:px-14 sm:px-7">
       <Subhead />
       <div className="sm:flex sm:justify-between md:px-15 xl:mx-28">
-        <div className="flex justify-center items-center py-5 mt-48 xl:mt-24">
+        <div className="flex justify-center items-center py-5 mt-36 xl:mt-24">
           <img src={img22} width="200px" />
         </div>
         <hr className=" sm:none "></hr>
@@ -27,7 +27,7 @@ function Foot() {
           </p>
         </div>
       </div>
-      <hr className="none sm:block"></hr>
+      <hr className="none sm:block "></hr>
       <div className="sm:flex justify-between xl:px-28">
         <div className="text-slate-300 mt-5 leading-7">
           <h1 className="font-bold">Designo Central Office</h1>

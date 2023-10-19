@@ -6,7 +6,7 @@ import ukmap from "./assets/locations/desktop/image-map-united-kingdom.png";
 import ukmap1 from "./assets/locations/tablet/image-map-uk.png";
 function Location() {
   return (
-    <div className="px-10 sm:mt-7 lg:w-4/5 lg:mx-auto xl:w-4/5 xl:mx-auto xl:px-0">
+    <div className="sm:mt-7 lg:w-4/5 lg:mx-auto xl:w-4/5 xl:mx-auto xl:px-0">
       <div className="xl:flex xl:flex-row-reverse">
         <picture>
           <source srcSet={canmap} media="(max-width:430px)" />
@@ -44,7 +44,7 @@ function Location() {
             src={ausmap}
             width="100%"
             height="20vh"
-            className="rounded-xl xl:w-[35em] xl:rounded-r-none"
+            className="sm:rounded-xl xl:w-[35em] xl:rounded-r-none"
           />
         </picture>
         <div className="text-center  xl:rounded-l-none xl:mt-0 xl:w-4/5 xl:pt-28 loc sm:px-16 sm:mt-3 sm:text-left py-10 sm:rounded-xl">
