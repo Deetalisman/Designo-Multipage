@@ -85,7 +85,7 @@ function Headfour() {
         <div className="flex justify-center items-center ">
           <img src={img4} className="w-32 h-30 pass sm:w-96 xl:w-36" />
         </div>
-        <div className="text-left ml-16 xl:text-center xl:ml-0">
+        <div className="sm:text-left ml-16 xl:text-center xl:ml-0">
           <h1 className="font-medium tracking-widest mt-3">PASSIONATE</h1>
           <p className="mt-3 text-sm leading-6 ">
             Each project starts with an in-depth brand research to ensure we
@@ -98,7 +98,7 @@ function Headfour() {
         <div className="flex justify-center items-center">
           <img src={img5} className="w-32 h-30 pass sm:w-96 xl:w-36" />
         </div>
-        <div className="text-left ml-16  xl:text-center xl:ml-0">
+        <div className="sm:text-left ml-16  xl:text-center xl:ml-0">
           <h1 className="font-medium tracking-widest mt-3">RESOURCEFUL</h1>
           <p className="mt-3 text-sm leading-6">
             Each project starts with an in-depth brand research to ensure we
@@ -111,7 +111,7 @@ function Headfour() {
         <div className="flex justify-center items-center">
           <img src={img6} className="w-32 h-30 pass sm:w-96 xl:w-36" />
         </div>
-        <div className="text-left ml-16 xl:text-center xl:ml-0">
+        <div className="sm:text-left ml-16 xl:text-center xl:ml-0">
           <h1 className="font-medium tracking-widest mt-3">FRIENDLY</h1>
           <p className="mt-3 text-sm leading-6">
             Each project starts with an in-depth brand research to ensure we
