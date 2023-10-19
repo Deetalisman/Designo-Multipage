@@ -31,10 +31,11 @@ code {
   background-color: rgb(255, 120, 97);
 }
 .web {
-  background-image: url(./assets/home/desktop/image-web-design-small.jpg);
+  background-image: url(./assets/home/desktop/image-web-design-large.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .app {
@@ -88,6 +89,14 @@ input {
   background-repeat: no-repeat;
   background-color: rgb(255, 120, 97);
   background-size: cover;
+}
+@media screen and (max-width: 1280px) {
+  .web {
+    background-image: url(./assets/home/desktop/image-web-design-small.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 @media screen and (max-width: 640px) {
   .web {

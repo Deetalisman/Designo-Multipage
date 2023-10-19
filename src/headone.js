@@ -10,11 +10,11 @@ function Headone() {
     setHam((ham) => !ham);
   }
   return (
-    <div className="flex justify-between py-5 px-3 relative lg:px-32 lg:mt-5">
+    <div className="flex justify-between xl:w-4/5 xl:mx-auto py-5 px-3 relative lg:px-32 lg:mt-5 xl:px-0">
       <a href="/" className="flex">
-        <img src={img2} width="180px" className="md:w-64" />
+        <img src={img2} width="180px" className="md:w-64 md:h-10" />
       </a>
-      <div className="flex text-lg font-medium tracking-widest hidden sm:flex mt-0">
+      <div className="flex text-lg  tracking-widest hidden sm:flex mt-0">
         <p className="mb-5 sm:mr-4">
           <a href="/about">OUR COMPANY</a>
         </p>{" "}

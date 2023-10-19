@@ -26,16 +26,18 @@ function Contact() {
     onSubmit,
   });
   return (
-    <div className="sm:mx-16 sm:mt-6 ">
-      <div className="text-center px-5 sm:px-10 con py-10 text-white sm:rounded-lg">
-        <h1 className="font-bold text-2xl">Contact Us</h1>
-        <p className="text-sm mt-3 leading-6 sm:text-base">
-          Ready to take it to the next level?Let's talk about your project or
-          idea and find out how we can help your business grow.If you are
-          looking for unique digital experience that's relatable to your users,
-          drop us a line.
-        </p>
-        <form onSubmit={handleSubmit} className=" mt-5">
+    <div className="sm:mx-16 sm:mt-6 lg:w-4/5 lg:mx-auto">
+      <div className="text-center xl:p-20 xl:text-left xl:flex xl:justify-between px-5 sm:px-10 con py-10 text-white sm:rounded-lg">
+        <div className="xl:w-2/5 xl:pt-14">
+          <h1 className="font-bold text-2xl xl:text-4xl">Contact Us</h1>
+          <p className="text-sm mt-3 leading-8 sm:text-base">
+            Ready to take it to the next level?Let's talk about your project or
+            idea and find out how we can help your business grow.If you are
+            looking for unique digital experience that's relatable to your
+            users, drop us a line.
+          </p>
+        </div>
+        <form onSubmit={handleSubmit} className=" text-white mt-5 xl:w-2/5">
           <input
             placeholder="Name"
             id="name"
@@ -69,7 +71,7 @@ function Contact() {
             className="bg-transparent pl-2 pb-2 rounded-lg text-white mb-3 w-full"
           />
           <button
-            className="text-red-600 bg-white p-3 px-5 rounded-md font-semibold mt-3"
+            className="text-red-600 xl:float-right bg-white p-3 px-5 rounded-md font-semibold mt-3"
             type="submit"
             onClick={onSubmit}
           >
@@ -84,8 +86,8 @@ function Contact() {
 
 function Sublocation() {
   return (
-    <div className="mt-14">
-      <div className="text-center">
+    <div className="mt-14 xl:flex xl:justify-between xl:mt-20 xl:mx-10">
+      <div className="text-center xl:w-48">
         <div className="flex justify-center items-center">
           <img src={canimg} className="pass" />
         </div>
@@ -94,7 +96,7 @@ function Sublocation() {
           <a href="/location">SEE LOCATION</a>
         </button>
       </div>
-      <div className="text-center mt-10">
+      <div className="text-center mt-10 xl:mt-0 xl:w-48">
         <div className="flex justify-center items-center">
           <img src={ausimg} className="pass" />
         </div>
@@ -103,7 +105,7 @@ function Sublocation() {
           <a href="/location">SEE LOCATION</a>
         </button>
       </div>
-      <div className="text-center mt-10">
+      <div className="text-center mt-10 xl:mt-0 xl:w-48">
         <div className="flex justify-center items-center">
           <img src={ukimg} className="pass" />
         </div>
